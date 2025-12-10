@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600|Work+Sans:400,500,600,700&display=swap');
+
+#login-form {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(135deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+  font-family: "work sans";
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logout {
+  color: white;
+  font-weight: bold;
+  padding-right: 1rem;
+}
+
+#logout:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#forms {
+  border: 0;
+  padding: 0;
+  margin: auto;
+}
+
+#loginform {
+  max-width: 500px;
+  width: 30rem;
+  height: 33rem;
+  margin: 100px auto;
+  background-color: #FFFFFF;
+  border-radius: 25px;
+}
+
+#headerTitle {
+  text-align: center;
+  font-family: 'open sans', sans-serif;
+  padding: 2rem 0;
+  margin: 0;
+  font-size: 2rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+  max-width: 100%;
+
+}
+
+.row input {
+  width: 80%;
+  box-sizing: border-box;
+  border: none;
+  font-size: 1.3rem;
+  padding-left: 1.5rem;
+  padding-bottom: 1rem;
+  box-shadow: inset 0px -3px 0px 0px rgba(187, 187, 187, 0.2);
+  transition: box-shadow 0.2s ease-in;
+}
+
+.row input:focus {
+  box-shadow: inset 0px -3px 0px 0px rgba(34, 193, 195, 0.7);
+  outline: none;
+}
+
+.row input::-webkit-input-placeholder {
+  opacity: 1;
+  transition: opacity 0.25s ease-out;
+}
+
+.row input:hover::-webkit-input-placeholder,
+.row input:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.row label {
+  align-self: center;
+  padding-bottom: 0.5rem;
+  color: rgba(187, 187, 187, 0.9);
+}
+
+#button-row {
+  border-radius: 25px;
+  height: 40px;
+  width: 15rem;
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 700;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(90deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+  border: 0px;
+  cursor: pointer;
+  transition: opacity 0.25s ease-out;
+}
+
+#button-row:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+  transition: 0.3s all ease;
+}
+
+#button-row:active{
+  transform: scale(1);
+}
+
+#button-div {
+  padding-bottom: 1.5rem;
+}
+
+#adminbar1 {
+  display: flex;
+  background-color: #3f7690;
+  width: 100vw;
+  height: 3rem;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.2rem 0.5rem;
+}
+
+#adminbar-left {
+  width: 60%;
+  justify-content: center;
+}
+
+#adminbar1-h1 {
+  font-weight: bold;
+  color: white;
+  margin-left: 10%;
+  margin-top: 0.5rem;
+}
+
+#adminbar-right {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+
+#adminbar-right1 {
+  display: flex;
+  font-weight: bold;
+  padding-top: 0.8rem;
+}
+
+#welcome {
+  color: rgba(255, 255, 255, 0.750);
+}
+
+#to-admin {
+  color: white;
+}
+
+#adminbar2 {
+  background-color: rgb(136, 194, 220);
+  height: 2.5rem;
+}
+
+#adminbar2-div {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+}
+
+#msd {
+  font-weight: bold;
+}
+
+#cfd {
+  font-weight: bold;
+}
+
+#help{
+  font-weight: bold;
+}
+
+#msd:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#cfd:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#help:hover {
+ text-decoration: underline;
+ cursor: pointer;
+}
+
+.property {
+  font-size: 1.5rem;
+}
+
+#tr {
+  font-size: 1.5rem;
+  border: 0;
+}
+
+.td{
+  border: 0;
+}
+
+#tr1 {
+  width: 25rem;
+  font-size: 1rem;
+  color: black;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+#table-rows{
+  /* position: fixed; */
+  /* top: 0; */
+  margin-left: -100px;
+  border: 0;
+}
+
+#tr2 {
+  border: 1px solid black;
+  width: 25rem;
+  font-size: 1rem;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+#right-container {
+  width: 70%;
+  height: 80%;
+  overflow: hidden;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+#right-container::-webkit-scrollbar {
+  width: 0.9rem;
+  padding: 0;
+  margin: 0;
+}
+
+#right-container::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.342);
+  border-radius: 1rem;
+  padding: 0;
+  margin: 0;
+} 
+
+ #right-container {
+  overflow: auto;
+} 
+
+.container{
+  margin-top: -3%;
+  padding: 0;
+  border: 0;
+}
+
+#addtable {
+  text-align: center;
+}
+
+.property {
+  padding: 0.3rem 0.75rem;
+}
+
+#property1 {
+  font-size: 1rem;
+  padding: 0.3rem 0.75rem;
+  margin-top: 0.5rem;
+}
+
+#config {
+  font-weight: bold;
+  color: green;
+  padding-bottom: 0;
+}
+
+#config-data {
+  text-align: center;
+}
+
+#save-btn{
+  margin: auto;
+}
+
+#save {
+  background-color: rgb(63, 118, 144);
+  color: white;
+  font-weight: bold;
+  border: 0;
+  font-size: 1.2rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.5rem;
+  width: fit-content;
+}
+
+#save:hover {
+  transform: scale(0.9);
+  transition: 0.3s all ease-in-out;
+}
+
+#save:active {
+  transform: scale(1);
+  transition: 0.3s all ease-in-out;
+}
+
+#title-msg {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+#message {
+  font-size: 3rem;
+  font-weight: bold;
+  color: green;
+  border-bottom: 5px solid green;
+}
+
+#warning {
+  font-size: 3rem;
+  font-weight: bold;
+  color: red;
+}
+
+#info {
+  font-size: large;
+  font-weight: bold;
+}
+
+/* #help-div {
+  width: 70%;
+  height: 80%;
+  overflow: hidden;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+} */
+
+#help-div { 
+  width: 100vw;
+  height: 92vh;
+  /* text-align: center; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-weight: bold;
+  overflow-y: scroll;
+  overflow: auto;
+}
+
+#help-div::-webkit-scrollbar {
+  width: 0.9rem;
+  padding: 0;
+  margin: 0;
+}
+
+#help-div::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.342);
+  border-radius: 1rem;
+  padding: 0;
+  margin: 0;
+} 
+
+#help-div {
+  overflow: auto;
+} 
+
+.th-class {
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+
+.tr-class:nth-child(even) {
+  background-color: #dde3ef;
+}
+
+.tr-class:nth-child(odd) {
+  background-color: #b8cce5;
+}
+
+.h3-div {
+ width: 100%;
+}
+
+.h3-class {
+  background-color: aqua;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+td {
+  font-size: 1.2rem;
+  padding-left: 1rem;
+}
+
+th {
+  font-size: 1.3rem;
+  padding: 0.3rem;
+}
+
+#table {
+  margin: 2rem;
+  margin-bottom: 4rem;
+}
+
